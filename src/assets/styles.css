@@ -49,16 +49,16 @@
 }
 
 .react-multiple-carousel__arrow--left {
-  left: calc(4% + 1px);
-}
-.react-multiple-carousel__arrow--left::before {
-  content: "\e824";
-}
-.react-multiple-carousel__arrow--right {
   right: calc(4% + 1px);
 }
+.react-multiple-carousel__arrow--left::before {
+  content: "السابق";
+}
+.react-multiple-carousel__arrow--right {
+  left: calc(4% + 1px);
+}
 .react-multiple-carousel__arrow--right::before {
-  content: "\e825";
+  content: "التالي";
 }
 
 .react-multi-carousel-dot-list {
